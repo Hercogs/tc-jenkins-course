@@ -2,7 +2,7 @@
 set -e
 
 # Run the tests
-python -m unitest discover -s tests -v
+python3 -m unitest discover -s tests -v
 
 # Print the current working directory and list its contents
 pwd
